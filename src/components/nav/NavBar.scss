@@ -1,8 +1,17 @@
+@import '../../constants.scss';
+
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
     width: 100%;
-    background-color: rgba(77, 77, 77, 0.93);
+    backdrop-filter: blur(4px);
+    background-color: $primaryColor;
+    position: fixed;
+    top: 0;
+    height: 3.5rem;
+    size: 1.5rem;
+    z-index: 100;
+    color: $textColorWhite;
 }
