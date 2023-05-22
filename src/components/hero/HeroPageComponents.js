@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Colors from "../../constants";
 
 export const HeroPageContainer = styled.div`
   width: 50%;
@@ -42,33 +43,10 @@ export const Image = styled.img`
   transform: rotateY(180deg)
 `
 
-export const Title = styled.h1`
-  font-family: "American Captain", sans-serif;
-  word-break: break-word;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 110px;
-  color: ${(props) => props.color};
-  cursor: pointer;
-  margin-bottom: 10px;
-
-  @media (max-width: 820px) {
-    font-size: 96px;
-  }
-
-  @media (max-width: 700px) {
-    font-size: 64px;
-  }
-
-  @media (max-width: 540px) {
-    font-size: 48px;
-  }
-`;
-
 export const MottoText = styled.p`
-  font-weight: 400;
+  font-weight: 500;
   font-size: 32px;
-  color: ${(props) => props.color};
+  color: ${Colors.textColorLight};
 
   &:before {
     content: '"';
@@ -88,6 +66,29 @@ export const MottoText = styled.p`
 
   @media (max-width: 540px) {
     font-size: 8px;
+  }
+`;
+
+export const Title = styled.h1`
+  font-family: "American Captain", serif;
+  word-break: break-word;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  color: ${(props) => props.color};
+  cursor: pointer;
+  margin-bottom: 0px;
+
+  @media (max-width: 820px) {
+    font-size: 96px;
+  }
+
+  @media (max-width: 700px) {
+    font-size: 64px;
+  }
+
+  @media (max-width: 540px) {
+    font-size: 48px;
   }
 `;
 

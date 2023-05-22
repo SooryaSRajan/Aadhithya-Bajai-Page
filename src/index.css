@@ -1,17 +1,17 @@
 @font-face {
-    font-family: 'PP Neue Machina';
-    src: local('PP Neue Machina'), url(./fonts/Neue_Machina.otf) format('opentype');
+    font-family: 'American Captain';
+    src: local('American Captain'), url(./fonts/AmericanCaptain-MdEY.otf) format('opentype');
 }
 
 @font-face {
-    font-family: 'American Captain';
-    src: local('American Captain'), url(./fonts/AmericanCaptain-MdEY.otf) format('opentype');
+    font-family: 'American Captain Patrius';
+    src: local('American Captain'), url(./fonts/AmericanCaptainPatrius02Fre-G06G.otf) format('opentype');
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'PP Neue Machina', sans-serif;
+    font-family: "Avenir Next Condensed", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
