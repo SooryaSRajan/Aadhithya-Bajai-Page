@@ -1,17 +1,23 @@
 @import '../../constants.scss';
 
+.nav-bar-wrapper {
+    width: 100%;
+}
+
 .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 0.4rem 20px;
     width: 100%;
-    backdrop-filter: blur(4px);
-    background-color: $sec;
+    backdrop-filter: blur(12px);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: transparentize($secondaryLight, 0.5);
     position: fixed;
     top: 0;
-    height: 3.5rem;
+    height: 5.5rem;
     size: 1.5rem;
-    z-index: 100;
+    z-index: 10;
     color: $textColorWhite;
 }

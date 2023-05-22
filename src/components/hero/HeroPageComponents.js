@@ -43,7 +43,8 @@ export const Image = styled.img`
 `
 
 export const Title = styled.h1`
-  align-self: flex-end;
+  font-family: "American Captain", sans-serif;
+  word-break: break-word;
   font-style: normal;
   font-weight: 400;
   font-size: 110px;

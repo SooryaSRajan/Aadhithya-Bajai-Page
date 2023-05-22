@@ -3,6 +3,11 @@
     src: local('PP Neue Machina'), url(./fonts/Neue_Machina.otf) format('opentype');
 }
 
+@font-face {
+    font-family: 'American Captain';
+    src: local('American Captain'), url(./fonts/AmericanCaptain-MdEY.otf) format('opentype');
+}
+
 body {
     margin: 0;
     padding: 0;

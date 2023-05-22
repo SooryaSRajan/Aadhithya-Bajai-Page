@@ -4,7 +4,7 @@ import Colors from "../../constants";
 export const Button = styled.button`
   width: max-content;
   height: max-content;
-  padding: 1rem 8rem;
+  padding: ${(props) => props.extended ? "1rem 8rem" : "1rem 1rem"};
   max-width: 100%;
   border-radius: 5px;
   border: none;
