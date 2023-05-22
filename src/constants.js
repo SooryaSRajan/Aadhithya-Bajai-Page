@@ -1,8 +1,8 @@
 const colors = {
     primary: '#f5f5f5',
-    secondary: '#9074a4',
-    secondaryHover: '#6c4f7d',
-    secondaryLight: '#bdaec6',
+    secondary: '#0053a7',
+    secondaryHover: '#003d7a',
+    secondaryLight: '#b0d2ff',
     textColorLight: '#464548',
 }
 

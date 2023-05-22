@@ -3,6 +3,7 @@ import NavBar from "./components/nav/NavBar";
 import HeroPage from "./pages/hero/HeroPage";
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import {useRef} from "react";
+import {CustomerHappinessPage} from "./pages/CustomerHappinessPage/CustomerHappinessPage";
 
 function App() {
     const ref = useRef();
@@ -27,7 +28,7 @@ function App() {
                       <HeroPage/>
                   </ParallaxLayer>
                   <ParallaxLayer offset={1} speed={0.9}>
-                      <HeroPage/>
+                      <CustomerHappinessPage/>
                   </ParallaxLayer>
               </Parallax>
           </div>

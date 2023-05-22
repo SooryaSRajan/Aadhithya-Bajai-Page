@@ -41,7 +41,7 @@ function HeroPage() {
                                      translate: onScreen ? "none" : "0 -5rem",
                                      transition: "600ms ease-in-out",
                                  }}>
-                          Caring for bikes since 2006
+                          Bikes and Customer satisfaction is our priority. Caring for bikes since 2006.
                       </MottoText>
                       <Button ref={ref}
                               extended={true}

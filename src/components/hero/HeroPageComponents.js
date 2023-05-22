@@ -13,6 +13,7 @@ export const HeroPageContainer = styled.div`
 
 export const HeroPageContent = styled.div`
   width: 100%;
+  margin-left: 40px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -26,6 +27,11 @@ export const ImageContainer = styled.div`
   overflow: hidden;
   display: flex;
   align-items: center;
+
+  @media (max-width: 820px) {
+    display: none;
+    flex: 0;
+  }
 
   &:before {
     content: "";
@@ -44,9 +50,11 @@ export const Image = styled.img`
 `
 
 export const MottoText = styled.p`
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 400;
+  font-size: 28px;
+  width: 80%;
   color: ${Colors.textColorLight};
+  margin-bottom: 60px;
 
   &:before {
     content: '"';
@@ -77,7 +85,7 @@ export const Title = styled.h1`
   font-size: 120px;
   color: ${(props) => props.color};
   cursor: pointer;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
   @media (max-width: 820px) {
     font-size: 96px;
