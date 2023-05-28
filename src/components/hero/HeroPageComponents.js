@@ -18,6 +18,10 @@ export const HeroPageContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+    
+    &:nth-child(1) {
+        padding-left: 6%;
+    }
 `
 
 export const ImageContainer = styled.div`
@@ -50,10 +54,10 @@ export const Image = styled.img`
 `
 
 export const MottoText = styled.p`
-  font-weight: 400;
+  font-weight: 300;
   font-size: 28px;
   width: 80%;
-  color: ${Colors.textColorLight};
+  color: ${Colors.textColorSecondary};
   margin-bottom: 60px;
 
   &:before {
@@ -100,11 +104,17 @@ export const Title = styled.h1`
   }
 `;
 
+export const HeroBackgroundImage = styled.img`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+`;
+
 
 export function HeroImage({url}) {
     return <ImageContainer>
         <Image src={url} alt="hero"/>
     </ImageContainer>
-
-
 }

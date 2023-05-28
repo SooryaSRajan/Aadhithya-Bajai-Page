@@ -20,3 +20,21 @@ export const Button = styled.button`
     background-color: ${(props) => props.hoverColor || Colors.secondaryHover};
   }
 `
+
+export const NavButton = styled.button`
+  background-color: transparent;
+  border: none;
+  color: ${(props) => props.isActive ? props.color || Colors.secondaryLight : Colors.textColorWhite};
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-left: 25px;
+  border-bottom: ${(props) => props.isActive ? `2px solid ${props.color || Colors.secondaryLight}` : "none"};
+  
+  &:hover {
+    transform: scale(1.05);
+    color: ${(props) => props.hoverColor || Colors.secondaryLight};
+    border-bottom: 2px solid ${(props) => props.hoverColor || Colors.secondaryLight};
+  }
+`

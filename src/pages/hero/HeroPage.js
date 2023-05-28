@@ -1,12 +1,14 @@
 import './HeroPage.scss';
 import {
-    HeroImage,
-    HeroPageContainer,
-    HeroPageContent,
-    MottoText,
-    Title
+  HeroBackgroundImage,
+  HeroImage,
+  HeroPageContainer,
+  HeroPageContent,
+  MottoText,
+  Title
 } from "../../components/hero/HeroPageComponents";
 import logo from "../../assets/images/hero.png";
+import background from "../../assets/images/top-curve.png";
 import {Button} from "../../components/button/Button";
 import useElementOnScreen from "../../animations";
 import {useEffect, useRef, useState} from "react";
@@ -25,6 +27,7 @@ function HeroPage() {
     return (
       <div className="hero-page">
           <div className="hero-backdrop">
+            <HeroBackgroundImage src={background}/>
               <HeroPageContainer>
                   <HeroPageContent>
                       <Title ref={ref}

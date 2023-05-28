@@ -1,9 +1,9 @@
 import './App.scss';
-import NavBar from "./components/nav/NavBar";
 import HeroPage from "./pages/hero/HeroPage";
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import {useRef} from "react";
 import {CustomerHappinessPage} from "./pages/CustomerHappinessPage/CustomerHappinessPage";
+import NavBar from "./components/nav/NavBar";
 
 function App() {
     const ref = useRef();

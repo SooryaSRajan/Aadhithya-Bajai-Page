@@ -8,15 +8,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.4rem 20px;
+    padding: 0.8rem 30px;
     width: 100%;
-    backdrop-filter: blur(12px);
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background: transparentize($secondaryLight, 0.5);
+    backdrop-filter: blur(2px);
     position: fixed;
     top: 0;
-    height: 5.5rem;
+    height: 6rem;
     size: 1.5rem;
     z-index: 10;
     color: $textColorWhite;

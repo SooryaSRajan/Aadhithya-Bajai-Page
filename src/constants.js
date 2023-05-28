@@ -3,7 +3,9 @@ const colors = {
     secondary: '#0053a7',
     secondaryHover: '#003d7a',
     secondaryLight: '#b0d2ff',
-    textColorLight: '#464548',
+    textColorWhite: '#ffffff',
+    textColorSecondary: '#c3c4c7',
+    backgroundColor: '#1a1a1a',
 }
 
 export default colors;
