@@ -9,8 +9,10 @@ export const Container = styled.div`
 `
 
 export const ContainerOuter = styled.div`
+  margin-top: 6rem;
   display: flex;
   width: 100%;
+  height: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -24,6 +26,11 @@ export const ContainerInner = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  //second n-child
+  &:nth-child(2) {
+    background-color: white;
+  }
 `
 
 export const BajajImage = styled.img`
